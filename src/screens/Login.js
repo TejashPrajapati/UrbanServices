@@ -24,6 +24,7 @@ import IPPORT from "../IPport";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const Login = ({ navigation }) => {
+  
   const [fdata, setFdata] = useState({
     email: "",
     password: "",
@@ -113,6 +114,7 @@ const Login = ({ navigation }) => {
       // console.log(`From async email: ${await AsyncStorage.getItem("userEmail")}`);
 
       navigation.navigate("HomeScreen");
+      // setErrormsg("All fields are required");
     } else {
       console.log(responseData.error);
     }
