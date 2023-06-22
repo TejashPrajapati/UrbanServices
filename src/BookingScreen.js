@@ -11,6 +11,7 @@ import Menu from './screens/Menu';
 import { useNavigation } from '@react-navigation/native';
 
 
+
 const BookingScreen = () => {
   const [isTotalCalculated, setIsTotalCalculated] = useState(false);
   const [data, setData] = useState([]);

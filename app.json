@@ -4,10 +4,10 @@
     "slug": "Urbanservices",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Urbanc.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/Ud.png",
+      "image": "./assets/PM.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -29,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78a38c4c-a974-416a-b70a-2ed71fb63eca"
+      }
     }
   }
 }

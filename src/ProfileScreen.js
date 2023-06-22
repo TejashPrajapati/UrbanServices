@@ -30,6 +30,8 @@ const ProfileScreen = ({title}) => {
   // const [userLogin, setUserLogin] = useState({});
   const [userName, setUserName] = useState({});
   const [userEmail, setUserEmail] = useState({});
+  
+  
 
 
   
@@ -205,7 +207,7 @@ const ProfileScreen = ({title}) => {
             <Caption style={styles.caption}>{userName}</Caption>
             <Caption style={styles.caption}>{userEmail}</Caption>
           </View>
-          <View>
+          {/* <View>
             <TouchableOpacity
               onPress={() => navigation.navigate("Editprofile")}
             >
@@ -218,7 +220,7 @@ const ProfileScreen = ({title}) => {
               />
               <Text style={styles.edit}>Edit Profile</Text>
             </TouchableOpacity>
-          </View>
+          </View> */}
         </View>
       </View>
 

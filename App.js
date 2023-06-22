@@ -12,6 +12,7 @@ import Details from './src/Details';
 import OnBord from './src/OnBord';
 import ManHairCut from './src/AllServices/Salon/ManHairCut';
 
+
 import Plumber from './src/AllServices/Plumber & Carpenter/Plumber';
 import Electrician from './src/AllServices/Electrician';
 import Spa from './src/AllServices/Salon/Spa';

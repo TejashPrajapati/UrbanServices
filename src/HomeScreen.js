@@ -538,11 +538,14 @@ const HomeScreen = ({ navigation }) => {
         marginTop: 20
       }}>
         <View style={{
-          width: "50%"
+          width: "50%",
+          
+
         }}>
           <Text style={{
             fontSize: 22,
-            fontWeight: "bold"
+            fontWeight: "bold",
+          
           }}>Customer Reviews</Text>
         </View>
         <View style={{
